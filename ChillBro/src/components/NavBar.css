@@ -1,2 +1,32 @@
+.navbar {
+  /* width: 95%; */
+  background-color: transparent;
+  height: 15%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+}
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: x-large;
+  padding-right: 30px;
+}
 .navbar-logo {
+  font-family: "Zain", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: xx-large;
+  text-decoration: none;
+  color: black;
 }

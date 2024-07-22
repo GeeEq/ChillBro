@@ -20,6 +20,12 @@ function NavBar() {
             <i className={click ? "fa-solid" : "fa-bars"}></i>
           </div> */}
         </div>
+        <div className="tabs">
+          <div className="home">Home</div>
+          <div className="about">About</div>
+          <div className="gallery">Gallery</div>
+          <div className="contacts">Contacts</div>
+        </div>
       </nav>
     </div>
   );
