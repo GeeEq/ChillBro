@@ -9,24 +9,27 @@
   align-items: center;
   flex-direction: row;
   padding: 10px 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(252, 252, 252);
+  background-color: white;
+  opacity: 0.7;
 }
 .tabs {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   font-family: "Zain", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
-  font-size: x-large;
+  font-size: 40px;
   padding-right: 30px;
+  color: black;
 }
 .navbar-logo {
   font-family: "Zain", sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
-  font-size: xx-large;
+  font-size: 50px;
   text-decoration: none;
   color: black;
 }
