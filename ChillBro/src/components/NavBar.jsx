@@ -14,6 +14,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
+            <img src="./src/assets/images/SunLogo.png"></img>
             Chill Bro
           </Link>
           {/* <div className="menu-icon" onClick={handleClick}>
