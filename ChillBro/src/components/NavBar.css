@@ -9,8 +9,8 @@
   align-items: center;
   flex-direction: row;
   padding: 10px 20px;
-  border-bottom: 1px solid rgb(252, 252, 252);
-  background-color: white;
+  /* border-bottom: 1px solid rgb(252, 252, 252); */
+  /* background-color: white; */
   opacity: 0.9;
 }
 .tabs {
@@ -23,7 +23,7 @@
   font-style: normal;
   font-size: 30px;
   padding-right: 30px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .navbar-logo {
   font-family: "Zain", sans-serif;
@@ -31,7 +31,7 @@
   font-style: normal;
   font-size: 40px;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;

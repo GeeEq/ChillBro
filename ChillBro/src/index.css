@@ -1,5 +1,9 @@
 body {
-  background-image: url(./assets/images/main_start.jpg);
+  background-image: url(./assets/images/oceanIsland.jpg);
   margin: 0;
   padding: 0;
+  width: 100vw;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
