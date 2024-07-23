@@ -5,6 +5,7 @@ export function About() {
   return (
     <div className="aboutSec">
       <h1>Adventure of a life time</h1>
+      <h3>the inner journey</h3>
     </div>
   );
 }
