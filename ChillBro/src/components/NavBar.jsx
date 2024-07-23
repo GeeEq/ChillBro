@@ -5,7 +5,7 @@ import "./NavBar.css";
 
 export function NavBar() {
   return (
-    <div>
+    <div className="navParent">
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">

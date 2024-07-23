@@ -1,6 +1,9 @@
+.navParent {
+  display: unset;
+}
+
 .navbar {
-  /* width: 95%; */
-  background-color: transparent;
+  /* background-color: transparent; */
   height: 15%;
   margin: 0;
   padding: 0;
@@ -9,9 +12,9 @@
   align-items: center;
   flex-direction: row;
   padding: 10px 20px;
-  /* border-bottom: 1px solid rgb(252, 252, 252); */
-  /* background-color: white; */
-  opacity: 0.9;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 .tabs {
   display: flex;
@@ -24,6 +27,7 @@
   font-size: 30px;
   padding-right: 30px;
   color: rgb(255, 255, 255);
+  /* overflow: auto; */
 }
 .navbar-logo {
   font-family: "Zain", sans-serif;
@@ -39,5 +43,4 @@
 }
 img {
   width: 50px;
-  /* padding: 10px; */
 }
