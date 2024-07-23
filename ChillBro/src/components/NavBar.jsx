@@ -3,12 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
-function NavBar() {
-  //   const [click, setClick] = useState(false);
-  //   const handleClick = () => {
-  //     setClick(!click);
-  //   };
-
+export function NavBar() {
   return (
     <div>
       <nav className="navbar">
@@ -31,5 +26,3 @@ function NavBar() {
     </div>
   );
 }
-
-export default NavBar;
