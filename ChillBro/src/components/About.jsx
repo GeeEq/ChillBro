@@ -3,7 +3,7 @@ import "../components/About.css";
 
 export function About() {
   return (
-    <div className="about">
+    <div className="aboutSec">
       <h1>Adventure of a life time</h1>
     </div>
   );
