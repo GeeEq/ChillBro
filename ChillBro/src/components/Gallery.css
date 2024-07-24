@@ -13,5 +13,51 @@
   font-size: 50px;
   text-align: center;
   padding-top: 1em;
-  opacity: 1;
+  /* opacity: 1; */
+  z-index: 1;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* overflow-x: scroll; */
+
+  .card {
+    width: 30em;
+    height: 30em;
+    margin-bottom: 10px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border-radius: 5%;
+    box-shadow: 3px 5px 5px black;
+
+    h4 {
+      color: black;
+      font-family: "Zain", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 35px;
+    }
+    img {
+      width: 90%;
+      height: 50%;
+      object-fit: cover;
+      overflow: hidden;
+      margin-top: -30px;
+      box-sizing: border-box;
+      border-radius: 5%;
+    }
+    p {
+      padding: 0 20px;
+      /* overflow: sc; */
+      position: inherit;
+      font-family: "Zain", sans-serif;
+      font-size: larger;
+      font-weight: 400;
+    }
+  }
 }
