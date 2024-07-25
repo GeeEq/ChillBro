@@ -13,7 +13,6 @@
   font-size: 50px;
   text-align: center;
   padding-top: 1em;
-  /* opacity: 1; */
   z-index: 1;
 }
 .container {
@@ -23,7 +22,7 @@
   text-align: center;
   gap: 20px;
   flex-wrap: wrap;
-  /* overflow-x: scroll; */
+  overflow: scroll;
 
   .card {
     width: 30em;
