@@ -15,6 +15,13 @@
   text-align: center;
   padding-top: 1em;
 }
+/* .cardsContainer {
+  background-color: transparent;
+  width: 90%;
+  align-items: center;
+  margin: -3% 5%;
+  border-radius: 5%;
+} */
 .container {
   display: flex;
   justify-content: center;
@@ -23,6 +30,7 @@
   gap: 20px;
   flex-wrap: wrap;
   overflow: scroll;
+  margin: 0;
 
   .card {
     width: 30em;

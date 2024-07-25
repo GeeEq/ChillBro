@@ -7,6 +7,8 @@ export function Gallery() {
       <h2>Gallery</h2>
       <div className="container">
         <div className="card">
+          {/* <div className="cardsContainer"> */}
+
           <h4>Hawaii</h4>
           <img src="./src/assets/images/hawaii.jpg"></img>
           <p>
@@ -14,6 +16,7 @@ export function Gallery() {
             Hawaiian Islands. Find Hawaii travel information and plan your
             perfec
           </p>
+          {/* </div> */}
         </div>
         <div className="card">
           <h4>Bali</h4>
