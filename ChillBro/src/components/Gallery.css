@@ -57,13 +57,11 @@
       height: 50%;
       object-fit: cover;
       overflow: hidden;
-      /* margin-top: -30px; */
       box-sizing: border-box;
       border-radius: 5%;
     }
     p {
       padding: 0 20px;
-      /* overflow: sc; */
       position: inherit;
       font-family: "Zain", sans-serif;
       font-size: larger;
