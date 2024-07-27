@@ -6,4 +6,5 @@ body {
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: -1;
 }

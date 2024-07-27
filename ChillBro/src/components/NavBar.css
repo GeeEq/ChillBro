@@ -1,12 +1,7 @@
 .navParent {
   display: unset;
-  /* background-color: rgb(15, 69, 218); */
   opacity: 0.6;
-  z-index: 5;
 }
-/* .navbar:n{
-  
-} */
 .navbar {
   background-color: rgb(15, 69, 218);
   height: 15%;
@@ -18,9 +13,7 @@
   flex-direction: row;
   padding: 10px 20px;
   position: sticky;
-  position: -webkit-sticky;
   top: 0;
-  z-index: 11;
 }
 .tabs {
   display: flex;
@@ -33,7 +26,6 @@
   font-size: 30px;
   padding-right: 30px;
   color: rgb(255, 255, 255);
-  /* overflow: auto; */
 }
 .navbar-logo {
   font-family: "Zain", sans-serif;
