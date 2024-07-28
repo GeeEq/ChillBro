@@ -1,9 +1,9 @@
 .gallerySec {
-  background-color: rgb(17, 124, 173);
-  opacity: 0.8;
-  z-index: -1;
+  /* background-color: rgb(17, 124, 173); */
+  /* opacity: 0.8; */
+  z-index: -8;
   overflow: hidden;
-  margin-top: 420px;
+  margin-top: 620px;
 }
 .gallerySec h2 {
   color: white;
@@ -58,10 +58,12 @@
     img {
       width: 100%;
       height: 30rem;
-      max-width: 90%;
+      max-width: 100%;
       object-fit: cover;
       box-sizing: border-box;
       border-radius: 30px;
+      display: block;
+      padding: 10px;
     }
     p {
       padding: 0 20px;
@@ -89,7 +91,7 @@
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  background-color: white;
+  background-color: rgb(31, 196, 247);
   opacity: 0.75;
   transition: opacity ease 250ms;
 }

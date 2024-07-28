@@ -1,12 +1,15 @@
 .navParent {
   display: unset;
-  opacity: 0.6;
+  position: relative;
+  z-index: 9;
 }
 .navbar {
   background-color: rgb(15, 69, 218);
   height: 15%;
   margin: 0;
   padding: 0;
+  opacity: 0.6;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
