@@ -1,11 +1,9 @@
 .gallerySec {
   background-color: rgb(17, 124, 173);
-  /* height: 50em; */
   opacity: 0.8;
-  /* position: relative; */
-  /* padding: 0 20px; */
   z-index: -1;
   overflow: hidden;
+  margin-top: 420px;
 }
 .gallerySec h2 {
   color: white;
@@ -23,7 +21,6 @@
   align-items: center;
   text-align: center;
   width: 100%;
-  /* margin: 0 auto; */
   overflow-x: auto;
   overflow-y: hidden;
   margin: 0;
@@ -57,7 +54,6 @@
       font-style: normal;
       font-size: 35px;
       margin: 0;
-      /* margin-top: 1rem; */
     }
     img {
       width: 100%;
@@ -80,7 +76,6 @@
   position: relative;
   max-width: 78rem;
   margin: 0 auto;
-  /* overflow: hidden; */
 }
 .slider-nav {
   display: flex;
@@ -89,7 +84,6 @@
   bottom: 0.3rem;
   left: 50%;
   transform: translateX(-50%);
-  /* z-index: 1; */
 }
 .slider-nav a {
   width: 1rem;
