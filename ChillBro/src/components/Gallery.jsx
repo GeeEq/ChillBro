@@ -56,8 +56,7 @@ export function Gallery() {
           <p>
             Breathtaking natural settings, crystal-clear waters, centuries-old
             traditions, genuine flavours and a great, great desire to welcome
-            you. Come and experience a unique archipelago where the clock does
-            not set the time and the calendar does not dictate the season.{" "}
+            you.
           </p>
         </div>
         <div className="card">
@@ -67,9 +66,7 @@ export function Gallery() {
           <p>
             Imagine an island with turquoise blue waters, secret coves, soft
             golden sands, lush green foliage, rugged mountains, picturesque
-            villages and a vibrant capital city. Now drop that island in the sea
-            only a couple of hours flight from most European cities... that's
-            Mallorca (also known as Majorca) in a nutshell.
+            villages and a vibrant capital city.
           </p>
         </div>
         <div className="card">
@@ -79,8 +76,7 @@ export function Gallery() {
           <p>
             Trinidad and Tobago is a beautiful country in the Caribbean, located
             just off the coast of Venezuela. Known for its vibrant culture,
-            stunning beaches, and diverse wildlife, Trinidad and Tobago is a
-            popular destination for tourists from all over the world.
+            stunning beaches, and diverse wildlife.
           </p>
         </div>
       </div>
