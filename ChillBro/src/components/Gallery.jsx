@@ -79,13 +79,13 @@ export function Gallery() {
           </div>
         </div>
         <div className="slider-nav">
-          <a href="#slider-1"></a>
-          <a href="#slider-2"></a>
-          <a href="#slider-3"></a>
-          <a href="#slider-4"></a>
-          <a href="#slider-5"></a>
-          <a href="#slider-6"></a>
-          <a href="#slider-7"></a>
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+          <a href="#slide-5"></a>
+          <a href="#slide-6"></a>
+          <a href="#slide-7"></a>
         </div>
       </div>
     </div>
