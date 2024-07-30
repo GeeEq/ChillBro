@@ -4,7 +4,7 @@ import "./Contacts.css";
 export function Contacts() {
   const onSubmit = async (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    const formData = new FormData(formId);
 
     formData.append("access_key", "87e9e587-6510-4239-8656-569d46a79e68");
 
@@ -26,15 +26,15 @@ export function Contacts() {
   };
   return (
     <section className="contactsSec">
-      <form>
+      <form onClick={onSubmit} id="formId">
         <h2>Contacts</h2>
         <div className="input-box fullName">
           <label>Full Name</label>
           <input
+            name="full_name"
             type="text"
             className="field"
             placeholder="Enter Your Name"
-            name="name"
             required
           />
         </div>
@@ -58,9 +58,7 @@ export function Contacts() {
             required
           />
         </div>
-        <button type="submit" onClick={onSubmit}>
-          Send Message
-        </button>
+        <button type="submit">Send Message</button>
       </form>
     </section>
   );
