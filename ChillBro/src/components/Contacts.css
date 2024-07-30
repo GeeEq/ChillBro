@@ -4,5 +4,26 @@
   background-color: rgb(34, 170, 211);
   margin: 0;
   padding: 0;
-  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+form {
+  min-width: 300px;
+  background-color: aliceblue;
+  width: 30rem;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 25px;
+}
+form h2 {
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
 }
