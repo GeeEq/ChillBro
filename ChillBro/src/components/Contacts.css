@@ -1,6 +1,6 @@
 .contactsSec {
   /* width: 90%; */
-  height: 30rem;
+  height: 50rem;
   background-color: rgb(34, 170, 211);
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@
 form {
   min-width: 300px;
   background-color: aliceblue;
-  width: 30rem;
+  width: 40rem;
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,4 +26,50 @@ form h2 {
   font-size: 50px;
   text-align: center;
   margin: 0;
+}
+form .input-box {
+  margin: 20px;
+  padding-right: 25px;
+}
+form .fullName {
+  padding-right: 33px;
+}
+form label {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+.input-box .field {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #ddd;
+  outline: none;
+  border-radius: 6px;
+  padding: 15px 10px;
+  font-size: 16px;
+  color: #333;
+  margin-top: 8px;
+}
+.input-box .field.mess {
+  height: 200px;
+  resize: none;
+}
+form button {
+  width: 95%;
+  height: 55px;
+  background-color: #826afb;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 27px;
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 0 15px;
+}
+form button:hover {
+  background: #624ec6;
 }
