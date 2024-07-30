@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contacts.css";
+import Swal from "sweetalert2";
 
 export function Contacts() {
   const onSubmit = async (event) => {
@@ -21,12 +22,16 @@ export function Contacts() {
     }).then((res) => res.json());
 
     if (res.success) {
-      console.log("Success", res);
+      Swal.fire({
+        title: "Woohoo!",
+        text: "Message sent successfully!",
+        icon: "success",
+      });
     }
   };
   return (
     <section className="contactsSec">
-      <form onClick={onSubmit} id="formId">
+      <form id="formId">
         <h2>Contacts</h2>
         <div className="input-box fullName">
           <label>Full Name</label>
@@ -58,7 +63,9 @@ export function Contacts() {
             required
           />
         </div>
-        <button type="submit">Send Message</button>
+        <button type="submit" onClick={onSubmit}>
+          Send Message
+        </button>
       </form>
     </section>
   );
