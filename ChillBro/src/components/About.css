@@ -3,7 +3,6 @@
   /* margin: 20px 30px; */
   text-align: center;
 }
-
 .aboutSec h1 {
   color: white;
   font-family: "Zain", sans-serif;
@@ -28,7 +27,7 @@
   color: transparent;
   background-clip: text;
   background-size: 190%;
-  animation: text-animation 5s infinite alternate;
+  animation: text-animation 5s infinite alternate, float 4s ease-in-out infinite;
 }
 @keyframes text-animation {
   0% {
@@ -72,5 +71,17 @@
   color: transparent;
   background-clip: text;
   background-size: 190%;
-  animation: text-animation 5s infinite alternate;
+  animation: text-animation 5s infinite alternate, float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

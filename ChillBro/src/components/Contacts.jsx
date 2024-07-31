@@ -17,7 +17,7 @@ export function Contacts() {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        Origin: "https://api.web3forms.com",
+        // Origin: "https://api.web3forms.com",
       },
       body: json,
     }).then((res) => res.json());

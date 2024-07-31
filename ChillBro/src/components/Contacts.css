@@ -73,3 +73,18 @@ form button {
 form button:hover {
   background: #624ec6;
 }
+/* @media (prefers-reduce-motion: no-preference) {
+  form {
+    scale: 0.5;
+    opacity: 0;
+    animation: fade-in linear forward;
+    animation-timeline: view();
+    animation-range: entry-crossing;
+  }
+}
+@keyframes fade-in {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+} */
