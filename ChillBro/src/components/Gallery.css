@@ -6,7 +6,7 @@
   margin-top: 620px;
 }
 .gallerySec h2 {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Zain", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -15,7 +15,6 @@
   padding-top: 0.3em;
   margin: 0;
 }
-
 .container {
   display: flex;
   align-items: center;

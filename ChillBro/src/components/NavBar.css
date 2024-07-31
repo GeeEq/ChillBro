@@ -21,13 +21,22 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
   font-family: "Zain", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 30px;
   padding-right: 30px;
   color: rgb(255, 255, 255);
+}
+.home:hover,
+.about:hover,
+.gallery:hover,
+.contacts:hover {
+  background-color: rgb(29, 163, 216);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .navbar-logo {
   font-family: "Zain", sans-serif;
@@ -43,14 +52,14 @@
 }
 img {
   width: 50px;
-  animation: rotate 1s linear infinite;
+  /* animation: rotate 1s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) = -1s);
   animation-iteration-count: 1;
-  animation-fill-mode: both;
+  animation-fill-mode: both; */
 }
-@keyframes rotate {
+/* @keyframes rotate {
   to {
     transform: rotate(360deg);
   }
-}
+} */
